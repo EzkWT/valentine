@@ -29,12 +29,12 @@ const CONFIG = {
         },
         second: {
             text: "Bon déjà à ton avis combien je t'aime ?",                          // For the love meter
-            startText: "att",                                   // Text before the percentage
-            nextBtn: "ensuite ❤️"                                         // Text for the next button
+            startText: "à ce point ??",                                   // Text before the percentage
+            nextBtn: "ensuite !!!! ❤️"                                         // Text for the next button
         },
         third: {
             text: "Est-ce que tu veux être ma valentine pour l'éternité ??!!! 🌹 (N'essaie surtout pas d'appuyer sur non (Antiphrase))", // The big question!
-            yesBtn: "Oui!",                                             // Text for "Yes" button
+            yesBtn: "Oui !",                                             // Text for "Yes" button
             noBtn: "Non"                                                 // Text for "No" button
         }
     },
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
