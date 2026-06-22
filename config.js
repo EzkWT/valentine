@@ -22,35 +22,35 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Est-ce que tu veux être ma valentine pour l'éternité ??!!! (N'essaie surtout pas d'appuyer sur non (Antiphrase))",                                    // First interaction
+            text: "Bon déjà est-ce que t'aimes les surprises ???????",                                    // First interaction
             yesBtn: "Oui",                                             // Text for "Yes" button
             noBtn: "Non",                                               // Text for "No" button
-            secretAnswer: "Tu sais que je t'aime toi ?"           // Secret hover message
+            secretAnswer: "Peut-être ici qui sait ??"           // Secret hover message
         },
         second: {
-            text: "À ton avis combien je t'aime ?",                          // For the love meter
+            text: "Bon déjà à ton avis combien je t'aime ?",                          // For the love meter
             startText: "att",                                   // Text before the percentage
             nextBtn: "ensuite ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Est-ce que tu veux être ma valentine pour l'éternité ??!!! 🌹 (N'essaie surtout pas d'appuyer sur non (Antiphrase))", // The big question!
+            yesBtn: "Oui!",                                             // Text for "Yes" button
+            noBtn: "Non"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW tu m'aimes autant ?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "Vers l'infini !!! 🚀💝",              // Shows when they go past 1000%
+        normal: "Ça fait beaucoup là non ?????! 🥰❤️❤️❤️❤️❤️❤️❤️"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: "OUIII! Je suis la personne la plus chanceuse sur terre! 🎉💝💖💝💓",
+        message: "T'es la meilleure personne sur terre ne l'oublie jamais !!!!!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
