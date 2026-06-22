@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Elise",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "JOYEUX ANNIVERSAIRE MA REINE 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,15 +22,15 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Est-ce que tu veux être ma valentine pour l'éternité ??!!! (N'essaie surtout pas d'appuyer sur non (Antiphrase))",                                    // First interaction
+            yesBtn: "Oui",                                             // Text for "Yes" button
+            noBtn: "Non",                                               // Text for "No" button
+            secretAnswer: "Tu sais que je t'aime toi ?"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "À ton avis combien je t'aime ?",                          // For the love meter
+            startText: "att",                                   // Text before the percentage
+            nextBtn: "ensuite ❤️"                                         // Text for the next button
         },
         third: {
             text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
